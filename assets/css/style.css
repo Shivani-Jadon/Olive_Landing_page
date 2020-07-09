@@ -1,5 +1,6 @@
 body{
     margin : 0;
+    font-family: sans-serif;
 }
 
 /* common styling elemnts */
@@ -43,6 +44,7 @@ header #nav-bar-small{
 
     header #nav-bar-small{
         display: block;
+        margin-bottom: 5%;
     }
 
     header #nav-bar-small #nav-menu{
@@ -72,13 +74,43 @@ header #nav-bar-small{
 #header-middle{
     background-image: url(../images/Dev/Banner_1.jpg);
     background-position: center;
-    background-size: cover;
+    background-size: auto;
+    padding: 5vw;
+}
+
+#header-middle h1{
+    font-size: 8vh;
+    margin-top: 0px;
+    color: whitesmoke;
+}
+
+#header-middle #apar-search{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+    justify-content: center;
+    max-width: fit-content;
+}
+
+#header-middle #apar-search div{
+    padding: 30px;
+    border-right: grey 1px solid;
+}
+
+#search-icon{
+    font-size: 5vh;
+    background-color: black;
+    color: whitesmoke;
 }
 
 
 /* HEADER BOTTOM */
+header #header-end{
+    padding: 2vh;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: #5db64c;
+    background-color: gainsboro;
+}
 
-/* need to be removed */
-img{
-        max-width : 300px;
-    }
