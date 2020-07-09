@@ -1,0 +1,35 @@
+#location{
+    background-image: url(../images/Dev/Browse_by_location/BG.jpg);
+}
+
+#location ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+}
+
+.city-div{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+    width: 200px;
+    height: 200px;
+    margin: 10px;  
+    text-align: center;
+}
+
+.city-div .city-arrow{
+    display: none;
+    padding: 10px;
+}
+
+.city-div:hover{
+    border: 2px white solid;
+}
+
+.city-div:hover .city-arrow{
+    display: flex;
+    transition: all 1s ease-in-out;
+}
