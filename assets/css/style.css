@@ -1,0 +1,84 @@
+body{
+    margin : 0;
+}
+
+/* common styling elemnts */
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+/* styling header */
+/* HEADER TOP */
+header{
+    margin : 5vh auto;
+}
+
+header #nav-bar ul{
+    display : flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin : 5vh auto;
+}
+
+header #nav-bar ul li{
+    display: inline-block;
+    margin : 2vh 2vw;
+    color: #5db64c;
+}
+
+
+header #nav-bar-small{
+    display: none;
+}
+
+@media screen and (max-width: 600px){
+    header #nav-bar{
+        display: none;
+    }
+
+    header #nav-bar-small{
+        display: block;
+    }
+
+    header #nav-bar-small #nav-menu{
+        display: flex;
+        /* align-items: center; */
+        justify-content: space-evenly;
+    }
+
+    #nav-bar-small #menu{
+        display : none;
+        position: absolute;
+        left: 70vw;
+    }
+
+    #nav-bar-small #logo img{
+        max-width: 60vw;
+    }
+
+    #nav-bar-small #bar-icon:hover #menu{
+        display: block;
+    }
+   
+}
+
+
+/* HEADER MIDDLE */
+#header-middle{
+    background-image: url(../images/Dev/Banner_1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* HEADER BOTTOM */
+
+/* need to be removed */
+img{
+        max-width : 300px;
+    }
