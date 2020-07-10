@@ -2,7 +2,7 @@
 section h1{
     text-align: center;
     color: #5db64c;
-    margin: 40px auto;
+    margin: 30px auto;
     font-weight: bolder;
     font-size: 8vh;
 }
@@ -111,4 +111,213 @@ section h1{
 #features ul li img{
     max-width: 100%;
     margin-bottom: 20px;
+}
+
+
+/* styling delight section */
+#delight{
+    background-color: gainsboro;
+    padding: 4vw 6vw;
+}
+
+#delight h1{
+    margin-top: 0;
+    padding: 4vw;
+    margin-bottom: 50px;
+}
+
+#delight li{
+    display: flex;
+}
+
+#delight li img{
+    max-width: 60vw;
+    margin-top: -50px;
+    box-shadow: 0px 0px 10px black;
+}
+
+
+#delight .delight-content{
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
+    padding: 5vw;
+    max-width: fit-content;
+    padding-bottom: 100px;
+    margin-top: 50px;
+}
+
+#delight .delight-content:nth-child(2n){
+    margin-left: -5vw;
+    margin-right: 5vw;
+}
+
+#delight .delight-content:nth-child(2n+1){
+    margin-left: 5vw;
+    margin-right: -5vw;
+}
+
+#delight .delight-content h3{
+    margin: 2vw auto;
+}
+
+#delight .delight-content li{
+    font-size: small;
+}
+
+#delight .delight-content li::before{
+    content: '-';
+    padding-right: 5px;
+}
+
+
+#delight #remark-2{
+    position: absolute;
+    left: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+    font-weight: 500;
+    font-size: small;    
+    color : #5db64c;
+    border-radius: 50%;
+    border: 1px #5db64c solid;
+    transform: rotate(-40deg);
+    /* margin-bottom: -50px; */
+    text-transform: uppercase;
+}
+
+#delight #remark-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+    font-weight: 500;
+    font-size: small;    
+    color : #5db64c;
+    border-radius: 50%;
+    border: 1px #5db64c solid;
+    transform: rotate(-40deg);
+    margin-bottom: -50px;
+    text-transform: uppercase;
+}
+
+
+@media screen and (max-width: 600px){
+    #delight li img{
+        max-width: 50vw;
+        margin-top: 100px;
+    }
+
+    #delight .delight-content:nth-child(2n){
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    #delight .delight-content:nth-child(2n+1){
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #delight .delight-content{
+        padding-bottom: 10px;
+        margin-top: 0;
+    }
+
+    #delight #remark-2{
+        left: 10%;
+    }
+    
+}
+
+
+/* styling blogs */
+#blogs{
+    background-color: gainsboro;
+}
+
+#blogs h1{
+    margin : 0;
+}
+#blogs ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+#blogs ul li{
+    background-color: white;
+}
+
+#blogs ul li img{
+    width : 300px;
+    height: 300px;
+}
+
+#blogs ul li div{
+    padding: 20px;
+}
+
+#blogs ul li div p{
+    color: #5db64c;
+    font-size: small;
+    font-weight: 600;
+}
+
+
+/* styling review section */
+#review{
+    background-color: gainsboro;
+    padding: 4vw 7vw;
+    text-align: center;
+    color: white;
+}
+
+#review h1{
+    margin: 0;
+}
+
+
+#review #remark-4{
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+    font-weight: 500;
+    font-size: small;    
+    color : #5db64c;
+    border-radius: 50%;
+    border: 1px #5db64c solid;
+    transform: rotate(-40deg);
+    /* margin-bottom: 50px; */
+    text-transform: uppercase;
+}
+
+#review img{
+    width: 40%;
+}
+
+#review .rereview-content{
+    width: 50%;
+}
+
+#review .carousel-item{
+    background-color: #242424;
+}
+
+#review .review-text{
+    padding : 20px 50px;
 }

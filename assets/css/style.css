@@ -19,6 +19,10 @@ header{
     margin-top : 5vh;
 }
 
+header select{
+    color: #5db64c;
+}
+
 header #nav-bar ul{
     display : flex;
     align-items: center;
@@ -32,6 +36,20 @@ header #nav-bar ul li{
     color: #5db64c;
 }
 
+header #nav-bar ul li a{
+    color: #5db64c;
+}
+
+header #nav-bar ul li a button{
+    color: #5db64c;
+    border: 2px #5db64c solid;
+    background-color: transparent;
+}
+
+header #nav-bar ul li a button:hover{
+    background-color: #5db64c;
+    color: white;
+}
 
 header #nav-bar-small{
     display: none;
@@ -63,6 +81,13 @@ header #nav-bar-small{
         max-width: 60vw;
     }
 
+    #nav-bar-small #menu ul{
+        background: gainsboro;
+        text-align: center;
+        padding: 5px;
+        color: #5db64c;
+    }
+
     #nav-bar-small #bar-icon:hover #menu{
         display: block;
     }
@@ -92,14 +117,25 @@ header #nav-bar-small{
     border-radius: 50%;
     border: 1px #5db64c solid;
     transform: rotate(-40deg);
-    margin-bottom: -50px;
+    margin-bottom: -20px;
     text-transform: uppercase;
 }
 
 #header-middle h1{
     font-size: 8vh;
     margin-top: 0px;
-    color: whitesmoke;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#header-middle label{
+    color: #5db64c;
+    font-weight: 600;
+    font-size: small;
+}
+
+#header-middle i{
+    color: #5db64c;
 }
 
 #header-middle #apar-search{
@@ -110,6 +146,12 @@ header #nav-bar-small{
     max-width: fit-content;
 }
 
+#header-middle .calendar input{
+    color: #5db64c;
+    border: 0px;
+
+}
+
 #header-middle #apar-search div{
     padding: 30px;
     border-right: grey 1px solid;
@@ -117,10 +159,13 @@ header #nav-bar-small{
 
 #search-icon{
     font-size: 5vh;
-    background-color: black;
+    background-color: #242424;
     color: whitesmoke;
 }
 
+#search-icon i{
+    color: whitesmoke;
+}
 
 /* HEADER BOTTOM */
 header #header-end{
