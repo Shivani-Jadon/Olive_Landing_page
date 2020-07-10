@@ -3,26 +3,33 @@ footer{
     padding-top: 20px;
     max-height: 75vh;
     overflow-y: scroll;
-    background-color: black;
+    background-color: #242424;
     color: white;
 }
 
 footer #footer-info{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 footer #footer-info span{
-    margin: auto 4%;
+    text-transform: uppercase;
+    font-size: small;
 }
 
 #social-accounts li{
     display: inline-block;
     padding: 10px;
     font-size: 30px;
+    color: #5db64c;
 }
 
-@media screen and (max-width : 600px){
+.footer-list h6{
+    color: #5db64c;
+}
+
+@media screen and (max-width : 1000px){
     footer #logo-accounts{
         width: 100%;
     }

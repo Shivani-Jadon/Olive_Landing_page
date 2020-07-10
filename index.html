@@ -9,6 +9,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://kit.fontawesome.com/abc62f7ecd.js" crossorigin="anonymous"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     </head>
     
     <body>
@@ -170,6 +174,7 @@
 
         <!-- main area of web page -->
         <main>
+            <!-- about section -->
             <section id="intro">
                 <h1>
                     Hotel... Vacation rental... 
@@ -182,25 +187,86 @@
                 </p>
             </section>
 
+            <!-- preferred location section -->
             <section id="location">
                 <h1>
-                    Location
+                    Browse By Location
                 </h1>
             
                 <div id="location-container">
-                    <ul>
-                        <li style="background-image: url(assets/images/Dev/Browse_by_location/Delhi.jpg);">
-                            <div class="city-div">
-                                <span>
-                                    Delhi 
-                                </span>
-                                <!-- <span class="city-arrow"> -->
-                                <img src="./assets/images/Dev/Arrow_Right_White.png">    
-                                <!-- </span> -->
-                            </div>
-                        </li>
+                    <ul>                       
                     </ul>
                 </div>
+
+                <div id="banner">
+                    <span>
+                        <i class="fas fa-home"></i>
+                        <h2>500+</h2>
+                        <p>Apartments in selected location</p>
+                    </span>
+                    <span>
+                        <i class="far fa-check-square"></i>
+                        <h2>Best</h2>
+                        <p>Rates guranteed with special offer</p>
+                    </span>
+                    <span>
+                        <i class="far fa-user"></i>
+                        <h2>24x7</h2>
+                        <p>Excellent support for hospitality</p>
+                    </span>
+                </div>
+            </section>
+
+            <!-- feature section -->
+            <section id="features">
+                <h1>
+                    Why Olive?
+                </h1>
+                <ul>
+                    <!-- <li>
+                        <div>
+                            <img src="assets/images/Dev/Why Olive/1.jpg">
+                        </div>
+                        <div>
+                            text
+                        </div>
+                    </li> -->
+                </ul>
+            </section>
+
+            <!-- delight section -->
+            <section>
+
+            </section>
+
+            <!-- blog section -->
+            <section>
+
+            </section>
+
+            <!-- review section -->
+            <section>
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="..." class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="..." class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="..." class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
             </section>
         </main>
 
@@ -228,37 +294,37 @@
                 </span>
 
                 <!-- entire home -->
-                <span>
+                <span class="footer-list">
                     <ul id="entire-home-list">
                         <li>
-                            <h5>Entire home</h5>
+                            <h6>Entire home</h6>
                         </li>                        
                     </ul>
                 </span>
 
                 <!-- Top Destination -->
-                <span>
+                <span class="footer-list">
                     <ul id="top-dest-list">
                         <li>
-                            <h5>Top Destination</h5>
+                            <h6>Top Destination</h6>
                         </li>
                     </ul>
                 </span>
 
                 <!-- Company Info -->
-                <span>
+                <span class="footer-list">
                     <ul id="company-info">
                         <li>
-                            <h5>Company Info</h5>
+                            <h6>Company Info</h6>
                         </li>
                     </ul>
                 </span>
 
                 <!-- Learn More -->
-                <span>
+                <span class="footer-list">
                     <ul id="learn-more-list">
                         <li>
-                            <h5>Learn More</h5>
+                            <h6>Learn More</h6>
                         </li>
                     </ul>
                 </span>
