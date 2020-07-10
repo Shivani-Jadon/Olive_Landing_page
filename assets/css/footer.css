@@ -18,6 +18,10 @@ footer #footer-info span{
     font-size: small;
 }
 
+footer #footer-info #logo-accounts{
+    padding-left: 20px;
+}
+
 #social-accounts li{
     display: inline-block;
     padding: 10px;
@@ -39,3 +43,8 @@ footer #footer-info span{
     width: 60vw;
     min-width: 300px;
 }
+
+footer::-webkit-scrollbar {
+    display: none;
+}
+  

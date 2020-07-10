@@ -17,7 +17,7 @@
         i.setAttribute('min',ymd(current_date));
     };
 
-    let anchor_tag = document.getElementsByTagName('a');
+    let anchor_tag = document.getElementsByClassName("prevent")
 
     for(let tags of anchor_tag){
         tags.addEventListener('click', function(event){

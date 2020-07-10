@@ -267,7 +267,7 @@ section h1{
     padding: 20px;
 }
 
-#blogs ul li div p{
+#blogs ul li div p a{
     color: #5db64c;
     font-size: small;
     font-weight: 600;
