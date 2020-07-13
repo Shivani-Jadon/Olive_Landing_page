@@ -1,5 +1,5 @@
 # Olive_Landing_page
-Home page developed for a Serviced Apartment company. 
+A sample Home page developed for a Serviced Apartment company. 
 
 ## Basic features
 The page has been built using :-
