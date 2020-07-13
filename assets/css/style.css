@@ -180,6 +180,21 @@ header #nav-bar-small{
     color: whitesmoke;
 }
 
+@media screen and (max-width: 600px){
+    #header-middle #apar-search{
+        display: block;
+    }
+
+    #header-middle #apar-search div{
+        padding: 10px;
+        border: grey 1px solid;
+    }
+    
+    #search-icon{
+        text-align: center;
+    }
+}
+
 /* HEADER BOTTOM */
 header #header-end{
     padding: 2vh;
